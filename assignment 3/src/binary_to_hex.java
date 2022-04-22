@@ -23,7 +23,7 @@ public class binary_to_hex
 	}
 	static String hexConvert(String user_binary)
 	{
-		// convert user_binary to type int (number to convert, base)
+		// convert user_binary to type int, base 2 (number to convert, base)
 		int user_int = Integer.parseInt(user_binary, 2);
 		String Hex = Integer.toHexString(user_int);
 		return Hex;
